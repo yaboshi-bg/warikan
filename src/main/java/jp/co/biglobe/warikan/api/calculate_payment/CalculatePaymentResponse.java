@@ -1,4 +1,4 @@
-package jp.co.biglobe.warikan.api.payment;
+package jp.co.biglobe.warikan.api.calculate_payment;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -8,7 +8,7 @@ import lombok.ToString;
 @ToString(includeFieldNames = false)
 @EqualsAndHashCode
 @AllArgsConstructor
-public class PaymentCalculationResponse {
+public class CalculatePaymentResponse {
 
     /**
      * 支払い区分が「多め」のメンバの支払い金額

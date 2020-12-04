@@ -2,15 +2,27 @@ plugins {
 	id 'org.springframework.boot' version '2.2.5.RELEASE'
 	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
 	id 'java'
+	id 'groovy'
 }
 
 group = 'jp.co.biglobe'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
 
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
+	}
+}
+
+configurations.all {
+	resolutionStrategy {
+		eachDependency { DependencyResolveDetails details ->
+			if (details.requested.group == 'org.codehaus.groovy') {
+				details.useVersion('3.0.6')
+			}
+		}
 	}
 }
 
@@ -25,6 +37,8 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	testImplementation 'org.codehaus.groovy:groovy-all:3.0.6'
+	testImplementation ('org.spockframework:spock-core:2.0-M4-groovy-3.0')
 }
 
 test {
