@@ -3,6 +3,7 @@ package jp.co.biglobe.warikan.service
 import jp.co.biglobe.warikan.datasource.mock.MockDrinkingPartyRepository
 import jp.co.biglobe.warikan.domain.amount.Amount
 import jp.co.biglobe.warikan.domain.drinking_party.*
+import jp.co.biglobe.warikan.domain.payment.AmountOfBill
 import jp.co.biglobe.warikan.domain.payment.SettingsOfRatioOfPaymentOfPaymentClassification
 import spock.lang.Specification
 

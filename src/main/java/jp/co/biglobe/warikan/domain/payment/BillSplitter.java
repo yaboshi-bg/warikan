@@ -1,7 +1,5 @@
 package jp.co.biglobe.warikan.domain.payment;
 
-import jp.co.biglobe.warikan.domain.drinking_party.AmountOfBill;
-
 public class BillSplitter {
     public static SplitBillResult split(
             AmountOfBill amountOfBill,

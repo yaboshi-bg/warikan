@@ -1,5 +1,6 @@
 package jp.co.biglobe.warikan.domain.drinking_party;
 
+import jp.co.biglobe.warikan.domain.payment.AmountOfBill;
 import jp.co.biglobe.warikan.domain.payment.BillSplitter;
 import jp.co.biglobe.warikan.domain.payment.NumberOfAllMembers;
 import jp.co.biglobe.warikan.domain.payment.SettingsOfRatioOfPaymentOfPaymentClassification;

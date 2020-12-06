@@ -1,8 +1,6 @@
 package jp.co.biglobe.warikan.domain.payment
 
 import jp.co.biglobe.warikan.domain.amount.Amount
-import jp.co.biglobe.warikan.domain.drinking_party.AmountOfBill
-import jp.co.biglobe.warikan.domain.payment.*
 import spock.lang.Specification
 
 class BillSplitterTest extends Specification {

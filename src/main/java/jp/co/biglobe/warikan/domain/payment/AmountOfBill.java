@@ -1,4 +1,4 @@
-package jp.co.biglobe.warikan.domain.drinking_party;
+package jp.co.biglobe.warikan.domain.payment;
 
 import jp.co.biglobe.warikan.domain.amount.Amount;
 import lombok.EqualsAndHashCode;

@@ -1,6 +1,6 @@
 package jp.co.biglobe.warikan.service;
 
-import jp.co.biglobe.warikan.domain.drinking_party.AmountOfBill;
+import jp.co.biglobe.warikan.domain.payment.AmountOfBill;
 import jp.co.biglobe.warikan.domain.drinking_party.DrinkingParty;
 import jp.co.biglobe.warikan.domain.drinking_party.DrinkingPartyRepository;
 import lombok.NonNull;
